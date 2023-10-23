@@ -2,16 +2,12 @@ import { iconsImgs } from "../utils/images.js";
 import { personsImgs } from "../utils/images.js";
 
 export const navigationLinks = [
-    { id: 1, title: 'Home', image: iconsImgs.home },
-    { id: 2, title: 'Budget', image: iconsImgs.budget },
-    { id: 3, title: 'Transactions', image: iconsImgs.plane },
-    { id: 4, title: 'Subscriptions', image: iconsImgs.wallet },
-    { id: 5, title: 'Loans', image: iconsImgs.bills },
-    { id: 6, title: 'Reports', image: iconsImgs.report },
-    { id: 7, title: 'Savings', image: iconsImgs.wallet },
-    { id: 8, title: 'Financial Advice', image: iconsImgs.wealth },
-    { id: 9, title: 'Account', image: iconsImgs.user },
-    { id: 10, title: 'Settings', image: iconsImgs.gears }
+    { id: 1, title: 'Dashboard', image: iconsImgs.home },
+    { id: 2, title: 'Products', image: iconsImgs.budget },
+    { id: 3, title: 'Customers', image: iconsImgs.plane },
+    { id: 4, title: 'Income', image: iconsImgs.wallet },
+    { id: 5, title: 'Promote', image: iconsImgs.bills },
+    { id: 10, title: 'Help', image: iconsImgs.gears }
 ];
 
 export const transactions = [
@@ -71,43 +67,43 @@ export const reportData = [
     },
     {
         id: 19,
-        month: "May",
+        month: "Jun",
         value1: 45,
         value2: null
     },
     {
         id: 20,
-        month: "May",
+        month: "Jul",
         value1: 45,
         value2: null
     },
     {
         id: 21,
-        month: "May",
+        month: "Aug",
         value1: 45,
         value2: null
     },
     {
         id: 22,
-        month: "May",
+        month: "Sept",
         value1: 45,
         value2: null
     },
     {
         id: 23,
-        month: "May",
+        month: "Oct",
         value1: 45,
         value2: null
     },
     {
         id: 24,
-        month: "May",
+        month: "Nov",
         value1: 45,
         value2: null
     },
     {
         id: 25,
-        month: "May",
+        month: "Dec",
         value1: 45,
         value2: null
     }

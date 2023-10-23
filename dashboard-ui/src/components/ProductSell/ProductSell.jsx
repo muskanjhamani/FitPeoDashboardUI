@@ -76,7 +76,6 @@ export default function ProductSell() {
                 <li>
                   <div className="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
                     <input
-                      // checked=""
                       defaultChecked
                       id="filter-radio-example-2"
                       type="radio"
@@ -183,16 +182,13 @@ export default function ProductSell() {
                 Product name
               </th>
               <th scope="col" className="px-6 py-3">
-                Color
-              </th>
-              <th scope="col" className="px-6 py-3">
-                Category
+                Stock
               </th>
               <th scope="col" className="px-6 py-3">
                 Price
               </th>
               <th scope="col" className="px-6 py-3">
-                Action
+                Total Sales
               </th>
             </tr>
           </thead>
@@ -211,7 +207,24 @@ export default function ProductSell() {
               >
                 Apple MacBook Pro 17"
               </th>
-              {/* ... Other product data remains unchanged ... */}
+              <th
+                scope="row"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+              >
+                32 in stock
+              </th>
+              <th
+                scope="row"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+              >
+                $ 55.99
+              </th>
+              <th
+                scope="row"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+              >
+                20
+              </th>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover-bg-gray-600">
               <td className="w-4 p-4">
@@ -227,7 +240,24 @@ export default function ProductSell() {
               >
                 Microsoft Surface Pro
               </th>
-              {/* ... Other product data remains unchanged ... */}
+              <th
+                scope="row"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+              >
+                32 in stock
+              </th>
+              <th
+                scope="row"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+              >
+                $ 55.99
+              </th>
+              <th
+                scope="row"
+                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+              >
+                20
+              </th>
             </tr>
             {/* Repeat the same structure for other product rows */}
           </tbody>

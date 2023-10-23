@@ -2,18 +2,23 @@
 .grid-c7 {
   background-color: var(--clr-white);
   padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 24px;
   border-radius: 12px;
+  width: 24%;
 }
 .grid-c7-content {
-  /* margin-top: 1 px; */
-  margin-bottom: -128px; 
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 8px 24px;
+  /* margin-top: 1 px; */  
+  margin-bottom: -128px;
     color: var(--clr-primary);
     padding: 10px;
     width: 100%;
     display: flex;
       align-items: center;
       justify-content: flex-start;
+}
+.customer-heading{
+  padding-top: 5px;
+  padding-right: 5px;
 }
 .progress-bar {
   display: flex;
@@ -25,8 +30,8 @@
 }
 .progress-bar svg {
   position: relative;
-  width: 210px;
-  height: 210px;
+  width: 250px;
+  height: 220px;
   transform: rotate(-90deg);
 }
 .progress-bar svg circle {
@@ -44,7 +49,7 @@
 }
 .progress-bar .number {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -59,7 +64,7 @@
 
 /* grid c7 */
 .grid-c7-content .progress-bar {
-  margin-left: -46px;
+  margin-left: -15px;
 }
 .grid-c7-content .data-list {
   margin-left: -20px;

@@ -3,13 +3,14 @@ import "./Loans.css";
 
 const Loans = () => {
   return (
-      <div className="grid-c7">
-          <h3>lo</h3>
+    <div className="grid-c7">
+      <h3 className="customer-heading">Customers</h3>
+      <h4 className="customer-heading">Customers that buy products</h4>
       <div className="grid-c7-content">
         <div className="progress-bar">
           <div className="percent">
             <svg>
-              <circle cx="105" cy="105" r="50"></circle>
+              <circle cx="150" cy="105" r="60"></circle>
               {/* <circle cx="105" cy="105" r="50" style="--percent: 50"></circle> */}
             </svg>
             <div className="number">
@@ -19,16 +20,7 @@ const Loans = () => {
             </div>
           </div>
         </div>
-        <ul className="data-list">
-          <li className="data-item text-silver-v1">
-            <span className="data-item-text">Savings Target</span>
-            <span className="data-item-value">$ 500,000</span>
-          </li>
-          <li className="data-item text-silver-v1">
-            <span className="data-item-text">Target Reached</span>
-            <span className="data-item-value">$ 250,000</span>
-          </li>
-        </ul>
+
       </div>
     </div>
   );
